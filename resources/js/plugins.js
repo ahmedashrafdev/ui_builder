@@ -1,0 +1,10 @@
+require('./plugins/jquery/jquery-1.11.1.min.js');
+require('./plugins/bootstrap/js/bootstrap.min.js');
+require('./plugins/bootstrap-select/js/bootstrap-select.min.js');
+require('./plugins/superfish/js/superfish.min.js');
+require('./plugins/prettyphoto/js/jquery.prettyPhoto.js');
+require('./plugins/owl-carousel2/owl.carousel.min.js');
+require('./plugins/jquery.sticky.min.js');
+require('./plugins/jquery.easing.min.js');
+require('./plugins/jquery.smoothscroll.min.js');
+require('./plugins/smooth-scrollbar.min.js');

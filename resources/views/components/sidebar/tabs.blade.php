@@ -1,0 +1,182 @@
+<div class="widget widget-tabs">
+    <div class="widget-content">
+        <ul id="tabs" class="nav nav-justified">
+            <li><a href="#tab-s1" data-toggle="tab">Top</a></li>
+            <li class="active"><a href="#tab-s2" data-toggle="tab">Sale Off</a></li>
+            <li><a href="#tab-s3" data-toggle="tab">Deals</a></li>
+        </ul>
+        <div class="tab-content">
+            <!-- tab 1 -->
+            <div class="tab-pane fade" id="tab-s1">
+                <div class="product-list">
+                    <div class="media">
+                        <a class="pull-left media-link" href="#">
+                            <img class="media-object" src="{{asset('storage/assets/img/preview/shop/top-sellers-1.jpg')}}" alt="">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                            <div class="rating">
+                                <span class="star"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span>
+                            </div>
+                            <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left media-link" href="#">
+                            <img class="media-object" src="{{asset('storage/assets/img/preview/shop/top-sellers-2.jpg')}}" alt="">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                            <div class="rating">
+                                <span class="star"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span>
+                            </div>
+                            <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left media-link" href="#">
+                            <img class="media-object" src="{{asset('storage/assets/img/preview/shop/top-sellers-3.jpg')}}" alt="">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                            <div class="rating">
+                                <span class="star"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span>
+                            </div>
+                            <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tab 2 -->
+            <div class="tab-pane fade in active" id="tab-s2">
+                <div class="product-list">
+                    <div class="media">
+                        <a class="pull-left media-link" href="#">
+                            <img class="media-object" src="{{asset('storage/assets/img/preview/shop/top-sellers-4.jpg')}}" alt="">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                            <div class="rating">
+                                <span class="star"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span>
+                            </div>
+                            <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left media-link" href="#">
+                            <img class="media-object" src="{{asset('storage/assets/img/preview/shop/top-sellers-5.jpg')}}" alt="">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                            <div class="rating">
+                                <span class="star"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span>
+                            </div>
+                            <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left media-link" href="#">
+                            <img class="media-object" src="{{asset('storage/assets/img/preview/shop/top-sellers-6.jpg')}}" alt="">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                            <div class="rating">
+                                <span class="star"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span>
+                            </div>
+                            <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tab 3 -->
+            <div class="tab-pane fade" id="tab-s3">
+                <div class="product-list">
+                    <div class="media">
+                        <a class="pull-left media-link" href="#">
+                            <img class="media-object" src="{{asset('storage/assets/img/preview/shop/top-sellers-7.jpg')}}" alt="">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                            <div class="rating">
+                                <span class="star"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span>
+                            </div>
+                            <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left media-link" href="#">
+                            <img class="media-object" src="{{asset('storage/assets/img/preview/shop/top-sellers-8.jpg')}}" alt="">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                            <div class="rating">
+                                <span class="star"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span>
+                            </div>
+                            <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left media-link" href="#">
+                            <img class="media-object" src="{{asset('storage/assets/img/preview/shop/top-sellers-9.jpg')}}" alt="">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#">Standard Product Header</a></h4>
+                            <div class="rating">
+                                <span class="star"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span><!--
+                                --><span class="star active"></span>
+                            </div>
+                            <div class="price"><ins>$400.00</ins> <del>$425.00</del></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-theme btn-theme-dark btn-theme-sm btn-block" href="#">More Products</a>
+    </div>
+</div>
