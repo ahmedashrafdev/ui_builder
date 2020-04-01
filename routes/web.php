@@ -1,8 +1,13 @@
 <?php
 
-
+use App\Page;
+use App\Block;
+use App\BlockPage;
+use App\Layout;
+use App\PageBlock;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Storage;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +20,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('test' , function(){
+    dd(Block::pluck('slug'));
+
+    
+    
+});
 Route::namespace('Pages')->group(function () {
     Route::get('/', 'HomePageController@index')->name('home.index');
 

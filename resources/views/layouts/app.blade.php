@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicon -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="{{asset('storage/assets/ico/favicon.ico')}}">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -20,11 +20,12 @@
 </head>
 <body>
     <div id="app">
-            @include('blocks.headers.block_4')
+            <x-blocks.headers.block-two/>
             <main>
                 @yield('content')
             </main>
-            @include('layouts.footers.footer')
+            <x-layouts.footers.footer/>
+
     </div>
 
     <!-- Scripts -->
